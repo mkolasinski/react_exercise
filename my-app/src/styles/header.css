@@ -21,6 +21,30 @@
 .navbar_top ul li {
     color: #ffffff;
 }
+
+.navbar_top ul li a {
+    display: inline-block;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.navbar_top ul li a:hover {
+    cursor: pointer;
+}
+
+.navbar_top ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background:#ffffff;
+    transition: width .4s;
+}
+
+.navbar_top ul li a:hover::after {
+    width: 100%;
+}
+
 .navbar_top ul li.about_me,
 .more_info_on_mobile {
     width: 50%;
