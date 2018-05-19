@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('../src/assets/fonts/kanit-v3-latin-regular.eot'),
+        url('../src/assets/fonts/kanit-v3-latin-regular.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts//kanit-v3-latin-regular.woff2') format('woff2'),
+        url('../src/assets/fonts/kanit-v3-latin-regular.woff') format('woff'),
+        url('../src/assets/fonts/kanit-v3-latin-regular.ttf') format('ttf'),
+        url('../src/assets/fonts/kanit-v3-latin-regular.svg') format('svg');
+}
+
+* {
+  font-family: 'Kanit', arial, sans-serif;
+}

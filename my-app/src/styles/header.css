@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.navbar {
+    background-color: #000000;
+}
+.navbar_top {
+    display: flex;
+    padding: 20px;
+}
+
+.navbar_top ul {
+    list-style: none;
+    display: flex;
+    margin: auto auto;
+    padding-left: 0;
+    width: 50%;
+}
+
+.navbar_top ul li {
+    color: #ffffff;
+}
+.navbar_top ul li.about_me,
+.more_info_on_mobile {
+    width: 50%;
+    text-align: center;
+}
+
+.navbar_top ul li.info {
+    display: none;
+}
+
+@media screen and (min-width: 767px) {
+    .navbar_top ul {
+        width: 75%;
+    }
+
+    .navbar_top ul li.about_me,
+    .info,
+    .more_info_on_mobile {
+        width: 30%;
+        text-align: center;
+    }
+
+    .navbar_top ul li.info {
+        display: inline;
+    }
+}
