@@ -24,25 +24,8 @@
 
 .navbar_top ul li a {
     display: inline-block;
-    color: lightgrey;
+    color: #ffffff;
     text-decoration: none;
-}
-
-.navbar_top ul li a:hover {
-    cursor: pointer;
-}
-
-.navbar_top ul li a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background:#ffffff;
-    transition: width .4s;
-}
-
-.navbar_top ul li a:hover::after {
-    width: 100%;
 }
 
 .navbar_top ul li.about_me,
@@ -58,6 +41,23 @@
 @media screen and (min-width: 767px) {
     .navbar_top ul {
         width: 75%;
+    }
+
+    .navbar_top ul li a:hover {
+        cursor: pointer;
+    }
+    
+    .navbar_top ul li a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background:#ffffff;
+        transition: width .4s;
+    }
+    
+    .navbar_top ul li a:hover::after {
+        width: 100%;
     }
 
     .navbar_top ul li.about_me,
