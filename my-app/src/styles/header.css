@@ -61,10 +61,13 @@
     }
 
     .navbar_top ul li.about_me,
-    .info,
-    .more_info_on_mobile {
+    .info {
         width: 30%;
         text-align: center;
+    }
+
+    .more_info_on_mobile {
+        display: none;
     }
 
     .navbar_top ul li.info {

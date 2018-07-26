@@ -11,4 +11,15 @@
 
    .footer span {
        color: #ffffff;
+       cursor: pointer;
+   }
+   
+   .footer a {
+       text-decoration: none;
+       color: #ffffff;
+   }
+
+   .footer small {
+       color: grey;
+       font-size: 12px;
    }

@@ -10,11 +10,10 @@ class Header extends React.Component {
                 <div className='navbar_top'>
                     <Logo />
                      <ul>
-                        <li className='about_me'><a>O mnie</a></li>
-                        <li className='info'><a>Biografia</a></li>
-                        <li className='info'><a>Moja praca</a></li>
-                        <li className='info'><a>Kontakt</a></li>
-                        <li className='more_info_on_mobile'><a>Więcej</a></li>
+                        <li className='about_me'><a>blog</a></li>
+                        <li className='info'><a>o mnie</a></li>
+                        <li className='info'><a>kontakt</a></li>
+                        <li className='more_info_on_mobile'><a>więcej</a></li>
                     </ul>
                 </div>
             </nav>
